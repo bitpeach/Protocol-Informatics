@@ -41,9 +41,9 @@
 # The characteristics of PI project Code 
 * For the 0.01 version, the old code has several errors. The data structures adopted the Numerical library, which has been disappeared in the new library of Numpy.
 
-* For the 0.02 version, this code has several updates. According to (the author)[http://phreakocious.net/PI/], there are some enhancements to the original tool:
->  1.Replaced the deprecated Numeric Python library with numpy.
+* For the 0.02 version, this code has several updates. According to [the author](http://phreakocious.net/PI), there are some enhancements to the original tool:
+- [x] Replaced the deprecated Numeric Python library with numpy.
 
->  2.Detection of terminal width to maximize screen real estate using python-consolesize.
+- [x] Detection of terminal width to maximize screen real estate using python-consolesize.
 
->  3.Updated command line arguments for xargs in Makefile.
+- [x] Updated command line arguments for xargs in Makefile.
