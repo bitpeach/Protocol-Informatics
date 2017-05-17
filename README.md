@@ -1,5 +1,5 @@
 # Protocol-Informatics
-“Protocol Informatics” is a project to design for automatically network protocol reverse engineering based on frame or packet analysis. "PI" is short for “Protocol Informatics”, which introduces local and global sequence alignment algorithms. The PI project is famous in network protocol reverse engineering based on network trace. I am **not** the author of PI project but an amateur of PI project. However, the previous website storing old codes of PI project has been disappeared. That warns and makes me to open a github issue to keep the codes of PI poject for the convenience of other researchers.
+`Protocol Informatics Project` is a project to design for automatically network protocol reverse engineering based on frame or packet analysis. "PI" is short for “Protocol Informatics”, which introduces local and global sequence alignment algorithms. The PI project is famous in network protocol reverse engineering based on network trace. I am **not** the author of PI project but an amateur of PI project, which was undertaking by its author `Marshall A. Beddoe`. In this year of 2017, the previous website storing old codes of PI project has been disappeared. However, those program codes or ideas have been deeply promoting the protocol-reversing researching work. That warns and makes me to open a github issue to back up the codes of PI project for the convenience of other researchers.
 
 # What is network protocol reverse engineering
 * According to reference, a certain of traffic on backbone networks worldwide comprises protocols of nonpublic descriptions such as C&C botnet servers, data link networks, wireless network protocols, instant messaging protocols and industrial control protocols.
@@ -37,3 +37,13 @@
 * Now his old version code of `4tphi.net` domain has disappeared. Instead, a new domain name `http://phreakocious.net/PI/` has been changed during March, 2017. The `PI-0.02beat` version code has been uploaded to [this new website](http://phreakocious.net/PI/).
 
 ![](https://github.com/bitpeach/Protocol-Informatics/blob/master/%5BNew%20Website%5DProtocol%20Informatics%20-%20Tools%20for%20Binary%20Protocol%20Analysis.png)
+
+# The characteristics of PI project Code 
+* For the 0.01 version, the old code has several errors. The data structures adopted the Numerical library, which has been disappeared in the new library of Numpy.
+
+* For the 0.02 version, this code has several updates. According to (the author)[http://phreakocious.net/PI/], there are some enhancements to the original tool:
+>  1.Replaced the deprecated Numeric Python library with numpy.
+
+>  2.Detection of terminal width to maximize screen real estate using python-consolesize.
+
+>  3.Updated command line arguments for xargs in Makefile.
