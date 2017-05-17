@@ -1,0 +1,2 @@
+# Protocol-Informatics
+“Protocol Informatics” is a project to design for automatically network protocol reverse engineering based on frame or packet analysis. "PI" is short for “Protocol Informatics”, which introduces local and global sequence alignment algorithms. The PI project is famous in network protocol reverse engineering based on network trace. I am not the author of PI project. However, the previous website storing PI project disappeared. That makes me to open a github issue to keep the codes of PI poject.
