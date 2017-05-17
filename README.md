@@ -1,5 +1,7 @@
 # Protocol-Informatics
-`Protocol Informatics Project` is a project to design for automatically network protocol reverse engineering based on frame or packet analysis. "PI" is short for “Protocol Informatics”, which introduces local and global sequence alignment algorithms. The PI project is famous in network protocol reverse engineering based on network trace. I am **not** the author of PI project but an amateur of PI project, which was undertaking by its author `Marshall A. Beddoe`. In this year of 2017, the previous website storing old codes of PI project has been disappeared. However, those program codes or ideas have been deeply promoting the protocol-reversing researching work. That warns and makes me to open a github issue to back up the codes of PI project for the convenience of other researchers.
+* `Protocol Informatics Project` is a project to design for automatically network protocol reverse engineering based on frame or packet analysis. "PI" is short for “Protocol Informatics”, which introduces local and global sequence alignment algorithms. The PI project is famous in network protocol reverse engineering based on network trace. I am **not** the author of PI project but an amateur of PI project, which was undertaking by its author `Marshall A. Beddoe`.
+
+* In this year of 2017, the previous website storing old codes of PI project has been disappeared. However, those program codes or ideas have been deeply promoting the protocol-reversing researching work. That warns and makes me to open a github issue to back up the codes of PI project for the convenience of other researchers.
 
 # What is network protocol reverse engineering
 * According to reference, a certain of traffic on backbone networks worldwide comprises protocols of nonpublic descriptions such as C&C botnet servers, data link networks, wireless network protocols, instant messaging protocols and industrial control protocols.
@@ -13,7 +15,7 @@
 
 * The core of PI project is the sequence alignment. The author of PI project found the sequence alignment algorithm from bioinformatics is able to applicable for field extraction of protocol sequences as well. The sequence alignment algorithm at first was used for the DNA similarity detection.
 
-* The principle of algorithm can be outlined as the follow.
+* The [paper](https://github.com/bitpeach/Protocol-Informatics/blob/master/PI%20paper%20(Network%20Protocol%20Analysis%20using%20Bioinformatics%20Algorithms).pdf) entitled `Network Protocol Analysis using Bioinformatics Algorithms` has been presented by its author `Marshall A. Beddoe`. The principle of algorithm can be outlined as the follow.
 
 ![](https://github.com/bitpeach/Protocol-Informatics/blob/master/PI%20paper%20figure.png)
 
