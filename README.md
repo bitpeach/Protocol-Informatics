@@ -20,7 +20,7 @@
 ![](https://github.com/bitpeach/Protocol-Informatics/blob/master/PI%20paper%20figure.png)
 
 # What is code of PI
-* PI code was writted by Python 2.x. In the old version of `PI-0.01.tgz`, PI.tgz imported the Numerical function which was outdated. So, the author has produced the `PI-0.02beta.tgz` version which has conquered the Numertical warnings by using the new function of NumPy. 
+* PI code was writted by Python 2.x. In the old version of `PI-0.01.tgz`, PI.tgz imported the Numerical function which was outdated. So, another author [`@phreakocious`](https://twitter.com/phreakocious) has produced the `PI-0.02beta.tgz` version which has conquered the Numertical warnings by using the new function of NumPy. It is really excellent work that `Marshall A. Beddoe` and `@phreakocious` do.
 
 * In the python environment, PI code complements the job of comparing two sequences of frames or packets to give two new sequences with the symbol of gap as the follow. The example can illustrate that the sequence alignment algorithm can pick two different protocol sequences for analyzing the common and diversity fields of protocol.
 
